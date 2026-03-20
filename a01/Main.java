@@ -9,10 +9,13 @@ public class Main {
         bombi.conectar(DispositivoConectado.TIPO_RED);
         bombi.apagar();
         DispositivoConectado.mostrarInfoGeneral();
+        System.out.println("---------------------------------------");
 
+        System.out.println("Bombilla conectada de manera diferente:");
         bombi.conectar("Wi-Fi 7");
         bombi.conectar("Wi-Fi 8");
 
+        System.out.println("-----------------------------------------");
         tele.encender();
         tele.conectar(DispositivoConectado.TIPO_RED);
         tele.apagar();

@@ -4,11 +4,7 @@ import java.util.Scanner;
 public interface MetodoPago {
     double IVA = 0.21;
      
-    default void procesarPago(double importe){
-
-        logTransaccion(importe);
-
-    }
+    void procesarPago(double importe);
 
     default void logTransaccion(double importe){
         String opcion;

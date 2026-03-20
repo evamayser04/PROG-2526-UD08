@@ -1,6 +1,6 @@
 package a01;
 
-public interface DispositivoConectado {
+interface DispositivoConectado {
     String TIPO_RED = "Wi-Fi 7";
 
     void encender();
