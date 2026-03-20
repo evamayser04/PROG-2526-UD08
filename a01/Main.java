@@ -3,7 +3,6 @@ package a01;
 public class Main {
     public static void main(String[] args) {
         Bombilla bombi = new Bombilla();
-
         Televisor tele = new Televisor();
 
         bombi.encender();
