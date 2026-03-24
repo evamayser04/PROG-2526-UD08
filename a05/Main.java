@@ -4,7 +4,7 @@ import a03.Notificable;
 public class Main {
     public static void main(String[] args) {
         
-        String mensajeCEO = "Cuu cuu: El CEO os saluda"
+        String mensajeCEO = "Cuu cuu: El CEO os saluda";
 
         Notificable paloma = new Notificable() {
             @Override
