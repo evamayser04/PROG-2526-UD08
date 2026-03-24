@@ -1,3 +1,5 @@
+package a03;
+
 public class NotificacionEmail implements Notificable {
     
     @Override

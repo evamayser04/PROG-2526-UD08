@@ -1,4 +1,6 @@
-class NotificacionSMS implements Notificable {
+package a03;
+
+public class NotificacionSMS implements Notificable {
     
     @Override
     public void enviarNotificacion(String mensaje){
