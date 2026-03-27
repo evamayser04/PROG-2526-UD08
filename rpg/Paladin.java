@@ -1,6 +1,6 @@
 package rpg;
 
-abstract class Paladin extends Personajes implements Atacante, Curador{
+    class Paladin extends Personajes implements Atacante, Curador{
     Paladin(String nombre, int nivel) {
         super(nombre, nivel);
     }
